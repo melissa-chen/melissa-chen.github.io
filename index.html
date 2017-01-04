@@ -2,12 +2,14 @@
 <html>
   <head>
     <title>Melissa's website</title>
+    <link href='css/bootstrap.css' rel='stylesheet' type='text/css' />
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
     <link rel = "stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <div id="bg"></div>
     <img id="lilme" src = "images/me.png" alt = "Drawing of me"/>
-    <a id="myname">Melissa Chen</a>
+    <p id="myname">Melissa Chen</p>
   <div id = "small-white-box"></div>
   <div id="small-wrapper">
     <div class = "nav">
@@ -38,11 +40,10 @@
 
     <div class="content" id="resume">
       <h1 class="h-resume">resume</h1>
-      <div class="description">
         I am looking for internship opportunities for summer 2017. I'm currently exploring various fields of computer science and am open to trying many things, but one thing I know I do like is working on front-end and UI/UX design.
-      </div>
+      <p></p> <!-- NEW LINE??? -->
       <p>
-        Here is my <a href="files/resume.pdf" target="_blank">resume</a> in pdf form!
+          Here is my <a href="files/resume.pdf" target="_blank">resume</a> in pdf form!
       </p>
     </div>
 
@@ -52,7 +53,8 @@
       <a href="https://github.com/melissa-chen"><img class="logo-img" src ="images/logo-github.png" /></a>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
     <script type='text/javascript' src='js/main.js'></script>
 
   </body>
