@@ -5,7 +5,7 @@ body {
 
 
 #myname {
-  color:  #793540;
+  color:  #44161d;
   font-size: 50px;
   letter-spacing: 2px;
   font-weight: bolder;
@@ -17,14 +17,14 @@ body {
 
 h1 {
   margin: 10px 0px 20px;
-  color: rgb(24, 143, 50);
+  color: rgb(255, 255, 255);
   font-size: 28px;
   font-weight:900;
   letter-spacing: 3px;
 }
 
 .content h1{
-  color: #0cad1c;
+  color: #ffffff;
 }
 
 h2 {
@@ -36,17 +36,17 @@ h2 {
 
 .nav-button:hover{
   cursor: pointer;
-	color: rgb(13, 78, 36);
+	color: rgb(222, 248, 255);
 }
 
 .content a {
-  color: #14be26;
+  color: #be3333;
   text-decoration: none;
-  border-bottom: 1px dashed #14be26;;
+  border-bottom: 1px dashed #ff759f;;
 }
 
 a:hover {
-  color: #17df2d;
+  color: #551818;
   text-decoration: none;
 }
 
